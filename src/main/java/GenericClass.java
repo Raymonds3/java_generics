@@ -1,14 +1,6 @@
 public class GenericClass<T> {
     private T type;
 
-    public void setType(T type) {
-        this.type = type;
-    }
-
-    public T getType() {
-        return type;
-    }
-
     public GenericClass(T type) {
         this.type = type;
     }
